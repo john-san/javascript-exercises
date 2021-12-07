@@ -10,3 +10,11 @@ You will notice in this exercise that there are multiple tests, after making the
 
 ## Hints
 Strings in JavaScript cannot be reversed directly so you're going to have to split it into something else first.. do the reversal and then join it back together into a string.
+
+const reverseString = function(str) {
+  const ans = [];
+  for (let i = str.length - 1; i >= 0; i--) {
+    ans.push[str[i]];
+  }
+  return ans.join('');
+};
